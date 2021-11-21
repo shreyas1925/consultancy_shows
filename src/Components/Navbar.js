@@ -1,21 +1,23 @@
 import React from "react";
+import "./Navbar.css";
+import logo from "../assets/images/chat-logo.jpg";
 import {
   SearchIcon,
   CurrencyRupeeIcon,
-  UsersIcon,
+  // UsersIcon,
   MenuIcon,
   UserCircleIcon,
 } from "@heroicons/react/solid";
 const Navbar = () => {
   return (
-    <div>
-      <header className="sticky-top z-50  bg-white  p-3">
-        <div className="row">
-          <div className="col-sm-3 col-md-4 col-12 ">
-            <img src="" alt="" srcset="" />
+    <div className="">
+      <header className="sticky-top header bg-white p-3">
+        <div className="d-flex justify-content-around">
+          <div className="">
+            <img src={logo} alt="" srcset="" className="image" />
           </div>
 
-          <div className="col-sm-3 col-md-4 col-12">
+          <div className="search border-2 ">
             <input
               type="text"
               // value={searchInput}
@@ -26,11 +28,11 @@ const Navbar = () => {
             <SearchIcon className="icon" />
           </div>
 
-          <div className="col-sm-3 col-md-4 col-12">
-            <p className="">Buy me a coffee</p>
+          <div className="d-flex align-items-center  justify-content-align-content-between">
+            {/* <p className="">Buy me a coffee</p> */}
             <CurrencyRupeeIcon className="icon" height="20px" />
 
-            <div className="">
+            <div className="d-flex justify-content-between">
               <MenuIcon className="icon" />
               <UserCircleIcon className="icon" />
             </div>

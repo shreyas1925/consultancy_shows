@@ -1,0 +1,33 @@
+.icon {
+  font-size: 12px;
+  width: 34px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.header {
+  /* background-color: green; */
+  height: 60px;
+}
+
+input {
+  width: 280px;
+  border: 0px solid black;
+  border-radius: 40px;
+  padding-left: 10px;
+  padding: 5px;
+}
+
+.image {
+  width: 43px;
+  height: 43px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+@media (max-width: 420px) {
+  input {
+    width: 150px;
+    padding: 6px;
+  }
+}
