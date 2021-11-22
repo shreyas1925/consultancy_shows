@@ -1,55 +1,122 @@
-import React from "react";
+// import React from "react";
+// import "./Navbar.css";
+// import logo from "../assets/images/chat-logo.jpg";
+// import {
+//   SearchIcon,
+//   CurrencyRupeeIcon,
+//   // UsersIcon,
+//   MenuIcon,
+//   UserCircleIcon,
+// } from "@heroicons/react/solid";
+// const Navbar = () => {
+//   return (
+//     <div className="">
+//       <header className="sticky-top header bg-white p-3">
+//         <div className="d-flex justify-content-around">
+//           <div className="">
+//             <img src={logo} alt="" srcset="" className="image" />
+//           </div>
+
+//           <div className="search border-2 ">
+//             <input
+//               type="text"
+//               // value={searchInput}
+//               // onChange={(e) => setSearchInput(e.target.value)}
+//               className=""
+//               placeholder="Explore more"
+//             />
+//             <SearchIcon className="icon" />
+//           </div>
+
+//           <div className="d-flex align-items-center  justify-content-align-content-between">
+//             {/* <p className="">Buy me a coffee</p> */}
+//             <CurrencyRupeeIcon className="icon" height="20px" />
+
+//             <div className="d-flex justify-content-between">
+//               <MenuIcon className="icon" />
+//               <UserCircleIcon className="icon" />
+//             </div>
+//           </div>
+//         </div>
+//       </header>
+//     </div>
+//   );
+// };
+
+// export default Navbar;
+
+// {
+//   /* <Image
+//             src={logo}
+//             layout="fill"
+//             objectFit="contain" //unnecessary aspect ratio removed
+//             objectPosition="left"
+//           /> */
+// }
+
+import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../assets/images/chat-logo.jpg";
+// import {
+//   FaFacebookSquare,
+//   FaInstagramSquare,
+//   FaYoutubeSquare,
+// } from "react-icons/fa";
 import {
   SearchIcon,
   CurrencyRupeeIcon,
-  // UsersIcon,
-  MenuIcon,
   UserCircleIcon,
 } from "@heroicons/react/solid";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
-    <div className="">
-      <header className="sticky-top header bg-white p-3">
-        <div className="d-flex justify-content-around">
-          <div className="">
-            <img src={logo} alt="" srcset="" className="image" />
-          </div>
+    <>
+      <nav className="main-nav">
+        <div className="">
+          <img src="" alt="" srcset="" />
+        </div>
 
-          <div className="search border-2 ">
-            <input
-              type="text"
-              // value={searchInput}
-              // onChange={(e) => setSearchInput(e.target.value)}
-              className=""
-              placeholder="Explore more"
-            />
-            <SearchIcon className="icon" />
-          </div>
+        <div
+          className={
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
+          }
+        >
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">about</NavLink>
+            </li>
+            <li>
+              <NavLink to="/service">services</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">contact</NavLink>
+            </li>
+          </ul>
+        </div>
 
-          <div className="d-flex align-items-center  justify-content-align-content-between">
-            {/* <p className="">Buy me a coffee</p> */}
-            <CurrencyRupeeIcon className="icon" height="20px" />
-
-            <div className="d-flex justify-content-between">
-              <MenuIcon className="icon" />
-              <UserCircleIcon className="icon" />
-            </div>
+        <UserCircleIcon
+          className={!showMediaIcons ? "icon" : "icons"}
+          style={{ width: "40px" }}
+        />
+        <div className="social-media">
+          {/* menu  */}
+          <div className="hamburger-menu ">
+            <button
+              className="button"
+              onClick={() => setShowMediaIcons(!showMediaIcons)}
+            >
+              <GiHamburgerMenu />
+            </button>
           </div>
         </div>
-      </header>
-    </div>
+      </nav>
+    </>
   );
 };
 
 export default Navbar;
-
-{
-  /* <Image
-            src={logo}
-            layout="fill"
-            objectFit="contain" //unnecessary aspect ratio removed
-            objectPosition="left"
-          /> */
-}
