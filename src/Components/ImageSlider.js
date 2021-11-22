@@ -17,7 +17,7 @@ const ImageSlider = () => {
   };
   return (
     <div>
-      <Slider {...settings}>
+      <Slider {...settings} className="slider">
         <div className="image">
           <img src={one} alt="" />
         </div>
