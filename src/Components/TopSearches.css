@@ -17,6 +17,9 @@
 }
 
 @media (max-width: 512px) {
+  .searches {
+    margin-left: 50px;
+  }
   .box {
     background-color: red;
     height: 100px;

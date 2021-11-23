@@ -27,8 +27,8 @@ const TopSearches = () => {
       <AliceCarousel
         mouseTracking
         infinite
-        autoPlayInterval={1000}
-        animationDuration={1500}
+        autoPlayInterval={1800}
+        animationDuration={2000}
         disableDotsControls
         disableButtonsControls
         responsive={responsive}
