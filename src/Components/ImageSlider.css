@@ -7,6 +7,19 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.slider {
-  slick-list: visible;
+.red {
+  height: 400px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+.green {
+  height: 400px;
+  width: 100%;
+  background-color: goldenrod;
+}
+
+.blue {
+  height: 400px;
+  width: 100%;
+  background-color: yellowgreen;
 }

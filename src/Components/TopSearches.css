@@ -1,0 +1,25 @@
+.searches {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  /* margin: 100px auto; */
+  place-items: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 110px;
+  /* padding: 100px; */
+}
+
+.box {
+  background-color: red;
+  height: 230px;
+  width: 230px;
+}
+
+@media (max-width: 512px) {
+  .box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  }
+}

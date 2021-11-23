@@ -19,16 +19,13 @@ const ImageSlider = () => {
     <div>
       <Slider {...settings} className="slider">
         <div className="image">
-          <img src={one} alt="" />
+          <div className="red"></div>
         </div>
         <div className="image">
-          <img src={two} alt="" />
+          <div className="green"></div>
         </div>
         <div className="image">
-          <img src={one} alt="" />{" "}
-        </div>
-        <div className="image">
-          <img src={two} alt="" />{" "}
+          <div className="blue"></div>
         </div>
       </Slider>
     </div>
