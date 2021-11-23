@@ -1,0 +1,24 @@
+/* .grid {
+  height: 100%;
+  width: 100%;
+  display: grid !important;
+  place-items: center !important;
+  grid-template-columns: 650px 200px;
+  grid-template-rows: 400px 400px;
+} */
+
+.grid {
+  height: 380px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+  margin-bottom: 35px;
+}
+
+.grid > div {
+  background: #eee;
+  padding: 1em;
+}
+.grid > div:nth-child(odd) {
+  background: #ddd;
+}
