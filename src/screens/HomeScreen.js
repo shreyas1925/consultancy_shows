@@ -4,6 +4,7 @@ import Extras from "../Components/Extras";
 import ImageSlider from "../Components/ImageSlider";
 import Navbar from "../Components/Navbar";
 import TopSearches from "../Components/TopSearches";
+import Footer from "../Components/Footer";
 
 const HomeScreen = () => {
   return (
@@ -13,6 +14,7 @@ const HomeScreen = () => {
       <TopSearches />
       <Advertisement />
       <Extras />
+      <Footer />
     </>
   );
 };

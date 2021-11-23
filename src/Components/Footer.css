@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+/* Header styles */
+
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dropdown-item.active {
+  color: black !important;
+  text-decoration: none;
+  background-color: white;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: skyblue;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: skyblue;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 14px;
+  /* background-color: rgb(197, 197, 197); */
+  background-color: #353849;
+  color: #d9dadf;
+}
+
+.mains {
+  background-color: #353849;
+  color: #d9dadf;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.navbar_main {
+  background-color: #219ebc;
+}
+
+.home_div {
+  /* background-color: #D9DADF; */
+  background-color: #d9dadf;
+}
+
+/* Form css */
+
+.form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: 100px 200px;
+  grid-gap: 20px;
+  /* background-color: gainsboro; */
+}
+
+.message {
+  margin-top: -20px;
+  grid-column: 1/-1;
+}
+
+.form__name {
+  background-color: gainsboro;
+  border: 1px solid transparent;
+}
+
+i {
+  font-size: 20px;
+}
+
+.fa-github {
+  /* color: #4078c0; */
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-instagram {
+  color: #e4405f;
+}
+.fa-linkedin-in {
+  color: #0a66c2;
+}
+
+.buttons {
+  margin-top: -30px;
+}
+
+/* Home banner css comes here */
+
+.home__info {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.home__info h1 {
+  /* display: block; */
+  font-size: 42px;
+  line-height: 53px;
+  font-weight: 700;
+  /* margin-top: 0; */
+  /* margin-bottom: 15px; */
+}
+
+.home__info p {
+  max-width: 550px;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  /* color: #fff; */
+  text-align: center;
+}
+
+.home_btn {
+  padding: 0.25rem 1rem;
+}
+
+/* Navbar style comes here */
+
+.logo img {
+  width: 140px;
+  height: 90px;
+}
+
+.navbars {
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li a {
+  font-style: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: white;
+  border-bottom: none;
+}
+
+.tags {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media (max-width: 560px) {
+  .home__info {
+    margin-top: 12px;
+  }
+
+  .home__info h1 {
+    margin-top: -15px;
+    font-size: 30px;
+  }
+
+  .home__info p {
+    margin-top: -12px;
+    font-size: 12px;
+  }
+  .second {
+    margin-top: -20px;
+  }
+  .message {
+    margin-top: -30px;
+  }
+
+  .form__grid {
+    grid-template-columns: repeat(1, 330px);
+    grid-template-rows: 100px 100px 200px;
+    grid-gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
