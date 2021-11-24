@@ -44,53 +44,11 @@ const Footer = () => {
             <p>Advertise</p>
             <p>Media Contacts</p>
           </div>
-          {/* <form className="">
-            <h2 className="bold text-white">Connect Now</h2>
-            <div className="socials mb-4 d-flex align-content-around">
-              <div className="cursor-pointer text-white"></div>
-            </div>
-            <div className="form__grid">
-              <div className="first">
-                <div controlId="name" className="form__name">
-                  <div
-                    className="form-control"
-                    type="text"
-                    placeholder="First name"
-                    // value={name}
-                    // onChange={(e) => setName(e.target.value)}
-                  ></div>
-                </div>
-              </div>
-              <div
-                className="form-control"
-                type="text"
-                placeholder="First name"
-                // value={name}
-                // onChange={(e) => setName(e.target.value)}
-              ></div>
-              <div className="message">
-                <div controlId="name">
-                  <textarea
-                    name=""
-                    className="form-control"
-                    placeholder="Any Relevant Message"
-                    id=""
-                    cols="30"
-                    rows="7"
-                  ></textarea>
-                  {/* <Form.Control
-                    type="text"
-                    placeholder="Enter your name"
-                    // value={name}
-                    // onChange={(e) => setName(e.target.value)}
-                  ></Form.Control> */}
-          {/* </div>
-              </div>
-              <button type="button" className="btn btn-outline-info buttons">
-                Connect
-              </button>
-            </div>
-          </form> */}
+
+          {/* Map will be integrated here */}
+
+          <div></div>
+
           <div className=" text-white"></div>
         </div>
         <div className="space-y-4 text-gray-800 mains">
