@@ -16,6 +16,13 @@
   width: 230px;
 }
 
+/* Map css */
+
+.map {
+  width: 350px;
+  height: 350px;
+}
+
 @media (max-width: 512px) {
   .searches {
     margin-left: 50px;

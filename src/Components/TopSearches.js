@@ -2,8 +2,8 @@ import React from "react";
 import "./TopSearches.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import one from "../assets/images/one.jpg";
-import two from "../assets/images/two.jpg";
+// import one from "../assets/images/one.jpg";
+// import two from "../assets/images/two.jpg";
 const TopSearches = () => {
   const handleDragStart = (e) => e.preventDefault();
 
