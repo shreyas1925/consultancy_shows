@@ -3,6 +3,7 @@ import React, { useState, useContext } from "react";
 import { NavLink } from "react-router-dom";
 // import { Fade } from "react-reveal";
 // import { UserContext } from "../App";
+import login from "../assets/profiles/login.png";
 import "./styles.css";
 
 const LoginScreen = () => {
@@ -45,7 +46,7 @@ const LoginScreen = () => {
           <div className="signin-content ">
             <div className="signin-image">
               <figure>
-                <img src="" alt="Login pic" />
+                <img src={login} alt="Login pic" />
               </figure>
               <NavLink to="/signup" className="signup-image-link">
                 Create an Account

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Map from "./Maps";
 import "./TopSearches.css";
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ const Footer = () => {
           </Row>
         </Container> */}
 
-        <div className="main">
+        <div className="main d-flex">
           <div className="space-y-4 text-xs text-white">
             {/* <h4 className="bold text-white">ABOUT</h4> */}
             <p>How Digital booking works</p>
@@ -20,23 +19,6 @@ const Footer = () => {
             <p>Investors</p>
             <p>Advertise</p>
             <p>Media Contacts</p>
-
-            <br />
-            <br />
-            <p>How Digital booking works</p>
-            <p>News & Press</p>
-            <p>Investors</p>
-            <p>Advertise</p>
-            <p>Media Contacts</p>
-          </div>
-
-          <div className="space-y-4 text-xs text-white">
-            {/* <h4 className="bold text-white">SUPPORT</h4> */}
-            <p>Help Centre</p>
-            <p>Cancellation options</p>
-            <p>Nearby Response</p>
-            <p>Safety Network</p>
-            <p>Reports</p>
 
             <br />
             <br />

@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 // import registerimage from "../images/registerimage.png";
 // import { Fade } from "react-reveal";
 import "./styles.css";
+
+import regis from "../assets/profiles/regis.png";
 const RegisterScreen = () => {
   // const history = useHistory();
   const [user, setUser] = useState({
@@ -162,7 +164,7 @@ const RegisterScreen = () => {
                     type="submit"
                     name="signup"
                     id="signup"
-                    className="btn btn-outline-info p-2 text-large"
+                    className=""
                     value="Register"
                     onClick={PostData}
                   />
@@ -172,7 +174,7 @@ const RegisterScreen = () => {
 
             <div className="signup-image">
               <figure>
-                <img src="" alt="registration pic" className="mb-5" />
+                <img src={regis} alt="registration pic" className="mb-5" />
               </figure>
               <NavLink to="/login" className="signup-image-link mt-2">
                 I am already registered

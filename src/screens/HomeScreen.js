@@ -14,7 +14,7 @@ const HomeScreen = () => {
       <TopSearches />
       <Advertisement />
       <Extras />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -9,18 +9,18 @@ import LoginScreen from "./screens/LoginScreen";
 const App = () => {
   return (
     <>
-      {/* <div className="app"> */}
-      <Router>
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/register" element={<RegisterScreen />} />
-          <Route path="/login" element={<LoginScreen />} />
-        </Routes>
-        {/* <Route component={RegisterScreen} /> */}
-      </Router>
+      <div className="app">
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/register" element={<RegisterScreen />} />
+            <Route path="/login" element={<LoginScreen />} />
+          </Routes>
+          {/* <Route component={RegisterScreen} /> */}
+        </Router>
 
-      {/* <h1>Hello Consulators</h1> */}
-      {/* </div> */}
+        {/* <h1>Hello Consulators</h1> */}
+      </div>
     </>
   );
 };
