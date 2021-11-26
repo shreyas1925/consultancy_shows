@@ -46,9 +46,10 @@ const LoginScreen = () => {
           <div className="signin-content ">
             <div className="signin-image">
               <figure>
-                <img src={login} alt="Login pic" />
+                <img src={login} alt="Login pic" className="mt-5" />
               </figure>
-              <NavLink to="/signup" className="signup-image-link">
+              <br />
+              <NavLink to="/register" className="signup-image-link">
                 Create an Account
               </NavLink>
             </div>
@@ -87,11 +88,7 @@ const LoginScreen = () => {
                 </div>
 
                 <div className="form-group form-button ">
-                  <button
-                    type="button"
-                    name="signin"
-                    className="btn btn-outline-info p-2 text-large"
-                  >
+                  <button type="button" name="signin" className="btn">
                     LOG IN
                   </button>
                 </div>
