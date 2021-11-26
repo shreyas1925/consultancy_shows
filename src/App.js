@@ -5,12 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import LoginScreen from "./screens/LoginScreen";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
     <>
       <div className="app">
         <Router>
+          <Navbar />
           <Routes>
             <Route path="/" element={<HomeScreen />} />
             <Route path="/register" element={<RegisterScreen />} />

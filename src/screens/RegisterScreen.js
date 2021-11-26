@@ -174,10 +174,13 @@ const RegisterScreen = () => {
 
             <div className="signup-image">
               <figure>
-                <img src={regis} alt="registration pic" className="mb-5" />
+                <img src={regis} alt="registration pic" className="mt-5" />
               </figure>
-              <NavLink to="/login" className="signup-image-link mt-2">
-                I am already registered
+              <NavLink
+                to="/login"
+                className="signup-image-link mt-2 cursor-pointer"
+              >
+                Already an user
               </NavLink>
             </div>
           </div>
