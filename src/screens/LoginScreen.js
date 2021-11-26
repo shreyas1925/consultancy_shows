@@ -85,13 +85,11 @@ const LoginScreen = () => {
                   />
                 </div>
 
-                <div className="form-group form-button">
+                <div className="form-group form-button ">
                   <button
                     type="button"
-                    // type="submit"
                     name="signin"
-                    onClick={loginUser}
-                    class="btn btn-outline-info pl-4 pr-4"
+                    className="btn btn-outline-info p-2 text-large"
                   >
                     LOG IN
                   </button>

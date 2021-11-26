@@ -1,8 +1,7 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import LoginScreen from "./screens/LoginScreen";
@@ -12,8 +11,12 @@ const App = () => {
     <>
       {/* <div className="app"> */}
       <Router>
-        <Route component={RegisterScreen} />
-        <Route path="/login" component={LoginScreen} />
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/register" element={<RegisterScreen />} />
+          <Route path="/login" element={<LoginScreen />} />
+        </Routes>
+        {/* <Route component={RegisterScreen} /> */}
       </Router>
 
       {/* <h1>Hello Consulators</h1> */}

@@ -997,7 +997,7 @@ label.valid:after {
 
 .button {
   display: inline-block;
-  background: #97cbfa;
+  /* background: #97cbfa; */
   border-radius: 5px;
   height: 48px;
   -webkit-transition: all 200ms ease;
