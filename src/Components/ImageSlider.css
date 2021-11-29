@@ -10,16 +10,22 @@
 .red {
   height: 400px;
   width: 100%;
-  background-color: cornflowerblue;
+  background-color: rgb(223, 226, 231);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .green {
   height: 400px;
   width: 100%;
-  background-color: goldenrod;
+  background-color: rgb(223, 226, 231);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .blue {
   height: 400px;
   width: 100%;
-  background-color: yellowgreen;
+  background-color: rgb(223, 226, 231);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

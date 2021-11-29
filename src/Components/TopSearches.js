@@ -5,8 +5,6 @@ import "react-alice-carousel/lib/alice-carousel.css";
 // import one from "../assets/images/one.jpg";
 // import two from "../assets/images/two.jpg";
 const TopSearches = () => {
-  const handleDragStart = (e) => e.preventDefault();
-
   const items = [
     <div className="box" style={{ marginBottom: 10 }}></div>,
     <div className="box" style={{ marginBottom: 10 }}></div>,

@@ -1,5 +1,5 @@
 import React from "react";
-import Advertisement from "../Components/Advertisement";
+import About from "../Components/About";
 import Extras from "../Components/Extras";
 import ImageSlider from "../Components/ImageSlider";
 import TopSearches from "../Components/TopSearches";
@@ -10,7 +10,7 @@ const HomeScreen = () => {
     <>
       <ImageSlider />
       <TopSearches />
-      <Advertisement />
+      <About />
       <Extras />
       {/* <Footer /> */}
     </>
