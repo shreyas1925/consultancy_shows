@@ -1,0 +1,15 @@
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-img-top {
+  margin: 18px auto;
+  width: 55px;
+  height: 52px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}

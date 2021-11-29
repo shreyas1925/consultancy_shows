@@ -2,7 +2,7 @@ import React from "react";
 import "./Extras.css";
 const Extras = () => {
   return (
-    <div className="grid">
+    <div className="grid mt-5">
       <div className="black">
         <p>
           {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, at? */}
