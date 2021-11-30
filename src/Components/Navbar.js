@@ -96,6 +96,17 @@ const Navbar = () => {
             <li>
               <NavLink to="/">Logout</NavLink>
             </li>
+
+            <li>
+              <button
+                type="button"
+                className="btn btn-info"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Get Started
+              </button>
+            </li>
           </ul>
         </div>
 
