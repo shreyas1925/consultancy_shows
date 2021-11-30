@@ -36,7 +36,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  /* font-family: "Jost", sans-serif; */
 }
 
 html {
@@ -124,22 +124,11 @@ li {
   display: none;
 }
 
-.facebook {
-  color: #3b5998;
-}
-
-.instagram {
-  color: #c32aa3;
-}
-
-.youtube {
-  color: #ff0000;
-}
-
 .button {
   outline: none;
   border: none;
   background-color: transparent;
+  /* font-size: 1.8rem; */
 }
 
 .icon {

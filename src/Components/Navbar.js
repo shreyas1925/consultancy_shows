@@ -61,11 +61,7 @@ import "./Navbar.css";
 //   FaInstagramSquare,
 //   FaYoutubeSquare,
 // } from "react-icons/fa";
-import {
-  SearchIcon,
-  CurrencyRupeeIcon,
-  UserCircleIcon,
-} from "@heroicons/react/solid";
+import { UserCircleIcon } from "@heroicons/react/solid";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 
@@ -97,16 +93,16 @@ const Navbar = () => {
               <NavLink to="/">Logout</NavLink>
             </li>
 
-            <li>
-              <button
-                type="button"
-                className="btn btn-info"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
-                Get Started
-              </button>
-            </li>
+            {/* <li> */}
+            <button
+              type="button"
+              className="btn btn-info"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              Get Started
+            </button>
+            {/* </li> */}
           </ul>
         </div>
 
