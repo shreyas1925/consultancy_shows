@@ -56,7 +56,7 @@ const Intro = () => {
               <div className="card">
                 <div className="contents">
                   <div className="icon">Lorem, ipsum dolor.</div>
-                  <h2>Create a Service</h2>
+                  <h2>Filter services</h2>
                   <p className="card_para">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                     distinctio cumque consectetur, omnis ab magni vel atque
@@ -69,7 +69,7 @@ const Intro = () => {
               <div className="card">
                 <div className="contents">
                   <div className="icon">Lorem, ipsum dolor.</div>
-                  <h2>Create a Service</h2>
+                  <h2>Request a Meeting</h2>
                   <p className="card_para">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                     distinctio cumque consectetur, omnis ab magni vel atque
@@ -82,7 +82,7 @@ const Intro = () => {
               <div className="card">
                 <div className="contents">
                   <div className="icon">Lorem, ipsum dolor.</div>
-                  <h2>Create a Service</h2>
+                  <h2>Connect </h2>
                   <p className="card_para">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                     distinctio cumque consectetur, omnis ab magni vel atque
