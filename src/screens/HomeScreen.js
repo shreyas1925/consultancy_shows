@@ -10,8 +10,8 @@ const HomeScreen = () => {
   return (
     <>
       {/* <ImageSlider /> */}
-      {/* <TopSearches /> */}
       <Intro />
+      <TopSearches />
 
       {/* <div className="pop-up"> */}
       {/* <!-- Button trigger modal --> */}
