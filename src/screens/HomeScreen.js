@@ -4,12 +4,14 @@ import Extras from "../Components/Extras";
 import ImageSlider from "../Components/ImageSlider";
 import TopSearches from "../Components/TopSearches";
 import Footer from "../Components/Footer";
+import Intro from "../Components/Intro";
 
 const HomeScreen = () => {
   return (
     <>
-      <ImageSlider />
-      <TopSearches />
+      {/* <ImageSlider /> */}
+      {/* <TopSearches /> */}
+      <Intro />
 
       {/* <div className="pop-up"> */}
       {/* <!-- Button trigger modal --> */}
@@ -64,8 +66,8 @@ const HomeScreen = () => {
       </div>
       {/* </div> */}
 
-      <About />
-      <Extras />
+      {/* <About /> */}
+      {/* <Extras /> */}
       {/* <Footer /> */}
     </>
   );

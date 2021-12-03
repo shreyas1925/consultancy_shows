@@ -94,14 +94,7 @@ const Navbar = () => {
             </li>
 
             {/* <li> */}
-            <button
-              type="button"
-              className="btn btn-info"
-              data-toggle="modal"
-              data-target="#exampleModal"
-            >
-              Get Started
-            </button>
+            <button className="get-started">Subscribe</button>
             {/* </li> */}
           </ul>
         </div>
