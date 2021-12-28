@@ -6,7 +6,6 @@ const About = () => {
     <>
       {/* <h1 className="text-center mt-4">How to approach</h1> */}
       {/* <hr /> */}
-
       <div className="d-flex justify-content-center align-items-center mt-5 mb-5">
         <div className="row">
           <div className="col-lg-4 col-md-4">
